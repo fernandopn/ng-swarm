@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        basevm:
+          ansible_user: r2d2
+          ansible_host: 192.168.79.3
